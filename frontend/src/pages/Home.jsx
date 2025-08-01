@@ -34,7 +34,7 @@ const Home = ({ quotes, currentQuote, setCurrentQuote }) => {
     { name: 'Bu Moaliani Supratriningsih', subject: 'Matematika', image: guruPlaceholder },
     { name: 'Bu Syarah Syaripah', subject: 'Ekonomi', image: guruPlaceholder },
     { name: 'Bu Dedeh Purwati', subject: 'Kimia', image: guruPlaceholder },
-    { name: 'Pak Gani', subject: 'Hardware', image: guruPlaceholder },
+    { name: 'Pak Ganip', subject: 'Hardware', image: guruPlaceholder },
     { name: 'Bu Hani', subject: 'Web Design', image: guruPlaceholder },
     { name: 'Pak Indra', subject: 'Keamanan Jaringan', image: guruPlaceholder },
     { name: 'Bu Joko', subject: 'Bahasa Inggris', image: guruPlaceholder },
@@ -59,7 +59,7 @@ const Home = ({ quotes, currentQuote, setCurrentQuote }) => {
           >
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-4">
               Selamat Datang di
-              <span className="text-yellow-400 block">Kelas 10.10 SMAN 1 CICALENGAK</span>
+              <span className="text-yellow-400 block">Kelas 10.10 SMA NEGERI 1 Cicalengka</span>
             </h1>
             <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
               Teknik Komputer dan Jaringan - Keluarga besar 43 murid dan 17 guru yang solid
@@ -84,7 +84,7 @@ const Home = ({ quotes, currentQuote, setCurrentQuote }) => {
               <Target className="h-8 w-8 text-yellow-400 mx-auto mb-3" />
               <h3 className="text-lg font-semibold text-yellow-400 mb-2">MISI</h3>
               <p className="text-slate-300 text-sm">
-                Mengembangkan potensi siswa dalam bidang TKJ dengan pembelajaran berkualitas
+                Mengembangkan potensi siswa dengan pembelajaran yang berkualitas
               </p>
             </div>
             <div className="glass-card p-6">
@@ -128,11 +128,11 @@ const Home = ({ quotes, currentQuote, setCurrentQuote }) => {
                 alt="Wali Kelas"
                 className="w-24 h-24 rounded-full mx-auto mb-4 border-4 border-yellow-400"
               />
-              <h3 className="text-xl font-semibold text-yellow-400 mb-2">Pak Wahyu Santoso</h3>
-              <p className="text-slate-300 mb-2">Wali Kelas 10.10 TKJ</p>
+              <h3 className="text-xl font-semibold text-yellow-400 mb-2">Pak Ceng Kurniawan</h3>
+              <p className="text-slate-300 mb-2">Wali Kelas 10.10 CHEXO</p>
               <p className="text-slate-400 text-sm mb-4">Mata Pelajaran: Jaringan Komputer</p>
               <div className="flex justify-center space-x-4 text-sm">
-                <span className="text-slate-300">📧 wahyu.santoso@sekolah.ac.id</span>
+                <span className="text-slate-300">📧 cengkurniawan@gmail.com</span>
               </div>
             </div>
           </motion.div>

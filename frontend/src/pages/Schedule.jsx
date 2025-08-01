@@ -7,12 +7,12 @@ const Schedule = () => {
 
   const schedule = {
     'Senin': [
-      { time: '06:30-07:30', subject: 'Matematika', teacher: 'Pak Ahmad', room: '10.10' },
-      { time: '07:30-08:30', subject: 'Bahasa Indonesia', teacher: 'Bu Sari', room: '10.10' },
-      { time: '08:30-09:30', subject: 'Jaringan Komputer', teacher: 'Pak Budi', room: 'Lab TKJ' },
-      { time: '09:30-10:00', subject: 'ISTIRAHAT', teacher: '-', room: '-' },
-      { time: '10:00-11:00', subject: 'Pemrograman', teacher: 'Bu Dewi', room: 'Lab Komputer' },
-      { time: '11:00-12:00', subject: 'Sistem Operasi', teacher: 'Pak Eko', room: 'Lab TKJ' },
+      { time: '06:30-07:00', subject: 'Upacara Bendera', teacher: 'Semua Guru', room: 'Lapangan Sekolah' },
+      { time: '07:00-07:45', subject: 'Bahasa Indonesia', teacher: 'Pak Saeful Rohman', room: '10.10' },
+      { time: '07:45-08:30', subject: 'Jaringan Komputer', teacher: 'Pak Budi', room: 'Lab TKJ' },
+      { time: '08:30-09:15', subject: 'Bu Dita Tiara Pramudita', teacher: 'Penjasorkes', room: 'Lapangan Sekolah' },
+      { time: '9:15-9:45', subject: 'Istirahat 1', teacher: '-', room: '-' },
+      { time: '9:45-10:30', subject: 'Penjasorkes', teacher: 'Bu Dita Tiara Pramudita', room: 'Lapangan Sekolah' },
       { time: '12:00-13:00', subject: 'ISHOMA', teacher: '-', room: '-' },
       { time: '13:00-14:00', subject: 'Database', teacher: 'Bu Fitri', room: 'Lab Komputer' },
       { time: '14:00-15:00', subject: 'Hardware', teacher: 'Pak Gani', room: 'Lab TKJ' }

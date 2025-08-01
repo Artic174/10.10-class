@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Home, Users, GraduationCap, Briefcase, Calendar, Megaphone, Camera, Phone, Trophy, Heart } from 'lucide-react'
 import logoKelas from '../assets/logo_kelas.png'
+import teachers from '../lib/teachers.jsx'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
