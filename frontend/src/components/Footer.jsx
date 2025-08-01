@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-yellow-400 mb-4">Kelas 10.10 TKJ</h3>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Website resmi Kelas 10.10 Teknik Komputer dan Jaringan. 
+              Website resmi Kelas 10.10 SMAN 1 CICALENGKA. 
               Tempat berkumpulnya 43 murid dan 17 guru dalam satu keluarga besar yang solid.
             </p>
           </div>
@@ -55,7 +55,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
     </footer>
   )
 }
