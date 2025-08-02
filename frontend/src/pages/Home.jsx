@@ -130,7 +130,7 @@ const Home = ({ quotes, currentQuote, setCurrentQuote }) => {
               />
               <h3 className="text-xl font-semibold text-yellow-400 mb-2">Pak Ceng Kurniawan</h3>
               <p className="text-slate-300 mb-2">Wali Kelas 10.10 CHEXO</p>
-              <p className="text-slate-400 text-sm mb-4">Mata Pelajaran: Jaringan Komputer</p>
+              <p className="text-slate-400 text-sm mb-4">Mata Pelajaran: Sejarah</p>
               <div className="flex justify-center space-x-4 text-sm">
                 <span className="text-slate-300">📧 cengkurniawan@gmail.com</span>
               </div>
