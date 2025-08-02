@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Menu, X, Home, Users, GraduationCap, Briefcase, Calendar, Megaphone, Camera, Phone, Trophy, Heart } from 'lucide-react'
-import logoKelas from '../assets/logo_kelas.png'
+import tenten from '../assets/logo_kelas.png'
 import teachers from '../lib/teachers.jsx'
 
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img src={logoKelas} alt="Logo Kelas 10.10" className="h-10 w-10" />
+            <img src={tenten} alt="Logo Kelas 10.10" className="h-10 w-10" />
             <div>
               <h1 className="text-xl font-bold text-yellow-400">Kelas 10.10</h1>
               <p className="text-xs text-slate-300">SMAN 1 CICALENGKA</p>
