@@ -8,14 +8,17 @@ const Schedule = () => {
   const schedule = {
     'Senin': [
       { time: '06:30-07:00', subject: 'Upacara Bendera', teacher: 'Semua Guru', room: 'Lapangan Sekolah' },
-      { time: '07:00-07:45', subject: 'Bahasa Indonesia', teacher: 'Pak Saeful Rohman', room: '10.10' },
-      { time: '07:45-08:30', subject: 'Jaringan Komputer', teacher: 'Pak Budi', room: 'Lab TKJ' },
+      { time: '07:00-07:45', subject: 'Bahasa Indonesia', teacher: 'Pak Saeful Rohman', room: 'Kelas 10.10' },
+      { time: '07:45-08:30', subject: 'Bahasa Indonesia', teacher: 'Pak Saeful Rohman', room: 'Kelas 10.10' },
       { time: '08:30-09:15', subject: 'Bu Dita Tiara Pramudita', teacher: 'Penjasorkes', room: 'Lapangan Sekolah' },
-      { time: '9:15-9:45', subject: 'Istirahat 1', teacher: '-', room: '-' },
-      { time: '9:45-10:30', subject: 'Penjasorkes', teacher: 'Bu Dita Tiara Pramudita', room: 'Lapangan Sekolah' },
-      { time: '12:00-13:00', subject: 'ISHOMA', teacher: '-', room: '-' },
-      { time: '13:00-14:00', subject: 'Database', teacher: 'Bu Fitri', room: 'Lab Komputer' },
-      { time: '14:00-15:00', subject: 'Hardware', teacher: 'Pak Gani', room: 'Lab TKJ' }
+      { time: '09:15-10:30', subject: 'Istirahat 1', teacher: '-', room: '-' },
+      { time: '10:30-11:15', subject: 'Penjasorkes', teacher: 'Bu Dita Tiara Pramudita', room: 'Lapangan Sekolah' },
+      { time: '11:15-12:00', subject: 'Matematika', teacher: 'Bu Moaliani Supratriningsih', room: '-' },
+      { time: '12:00-12:30', subject: 'Istirahat', teacher: '-', room: '-' },
+      { time: '12:30-13:15', subject: 'Matematika', teacher: 'Bu Moaliani Supratriningsih', room: 'Kelas 10.10' }, 
+      { time: '13:15-14:00', subject: 'Ekonomi', teacher: 'Bu Syarah Syaripah', room: 'Kelas 10.10' },
+      { time: '14:00-14:45', subject: 'Ekonomi', teacher: 'Bu Syarah Syaripah', room: 'Kelas 10.10' },
+      { time: '14:45-15:30', subject: 'Ekonomi', teacher: 'Bu Syarah Syaripah', room: 'Kelas 10.10' }
     ],
     'Selasa': [
       { time: '06:30-07:30', subject: 'Bahasa Inggris', teacher: 'Bu Joko', room: '10.10' },
